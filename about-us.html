@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tables</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar" id="navbar">
+            <ul class="logo">
+                <li>
+                    <a href="./index.html">Company Logo</a>
+                </li>
+            </ul>
+            <ul class="navUl">
+                <li class="navLi">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="navLi">
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="navLi">
+                    <a href="#" id="active">About us</a>
+                </li>
+                <li class="navLi">
+                    <a href="contact-us.html">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Table</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores natus veritatis maxime quam. Laudantium velit unde, doloribus dolorem ratione vero iusto aliquid facere, accusamus rem mollitia non exercitationem perferendis eveniet.
+        </p>
+        <!-- <table border="1" width="100%" cellpadding="8px" cellspacing="4px" style="border-color: red;"> -->
+        <table border="3" width="60%" cellpedding="40px" cellspacing="8px" style="border-color: red;">
+
+            <caption>
+                Emails of my friends
+            </caption>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bleda</td>
+                    <td>Stark</td>
+                    <td>
+                        <a href="mailto:bleda.stark@digitalcareerinstitute.org">bleda.stark@digitalcareerinstitute.org</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>Ross</td>
+                    <td>
+                        <a href="mailto:paint@happytress.com">paint@happytress.com</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Batman</td>
+                    <td>
+                        <a href="mailto:batman@wayne.com">batman@wayne.com</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Tony</td>
+                    <td rowspan="2">Stark</td>
+                    <td>
+                        <a href="mailto:iron-man@avengers.com">iron-man@avengers.com</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="mailto:tony@stark.com">tony@stark.com</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

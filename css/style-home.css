@@ -1,0 +1,262 @@
+.top a {
+    color: #fff;
+    padding: 50px;
+    font-size: 4em;
+}
+
+.top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.marginFix {
+    margin: 0 50px;
+}
+
+.p1 {
+    position: relative;
+    top: 35%;
+    font-family: "Raleway", sans-serif;
+    font-size: 4em;
+    /* text-align: left; */
+    border-top: 0.5px solid #303030;
+    border-bottom: 0.5px solid #303030;
+    width: fit-content;
+    word-spacing: 0.3cm;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.gallery2 *:not(.fixText):not(.bg5) {
+    /* width: 100%; */
+    font-family: "Cairo";
+    padding: 5% 2%;
+    text-align: left;
+}
+
+.gallery2>div:nth-child(even) {
+    max-width: 100%;
+    text-align: left !important;
+    direction: rtl !important;
+    margin: 5% 0 !important;
+}
+
+
+/*
+========================================
+To fix the small text over each section...
+========================================
+*/
+
+.fixText {
+    font-size: initial;
+    padding: 0 2%;
+    margin-bottom: -60px;
+}
+
+.bg1 {
+    background-image: url("../img/Element1@2x.png");
+    background-size: 650px auto;
+    background-repeat: no-repeat;
+    background-position: 85%;
+}
+
+.bg1 p {
+    max-width: 50%;
+    position: relative;
+    /* padding: 0 5%; */
+}
+
+.bg2 {
+    /* background: #212029; */
+    background-image: url("../img/Element3@2x.png");
+    background-size: 650px auto;
+    background-repeat: no-repeat;
+    background-position: 60px;
+}
+
+.bg2 p {
+    position: relative;
+    max-width: 45%;
+    /* left: -50px; */
+}
+
+
+/*
+====================
+See more Button...
+====================
+*/
+
+.SeeMore {
+    position: relative !important;
+    max-width: 15% !important;
+    text-align: center !important;
+    padding: 20px !important;
+    left: -468px;
+    background-color: #AE83C5;
+    color: #fff;
+    /* padding: 20px 20px; */
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.SeeMore:hover {
+    border: 1px solid #AE83C5;
+    background: #303030;
+    transition: all 1s;
+}
+
+.bg3 {
+    background-image: url("../img/galleryElement2_1@2x.png");
+    background-size: 850px auto;
+    background-repeat: no-repeat;
+    background-position: 85%;
+}
+
+.bg3 p {
+    max-width: 45%;
+    position: relative;
+    /* padding: 0 10%; */
+}
+
+.bg4 {
+    background-image: url("../img/MeetOurTeam@2x.png");
+    background-size: 550px auto;
+    background-repeat: no-repeat;
+    background-position: 60px;
+}
+
+.bg4 p {
+    max-width: 45%;
+    position: relative;
+    /* padding: 0 10%; */
+}
+
+.fifthText {
+    font-size: initial;
+    padding: 0;
+    margin-left: 2% !important;
+    margin-bottom: -150px;
+    /* margin-top: -50px; */
+}
+
+section {
+    background-image: url("../img/contactus2@2x.png");
+    background-size: 650px auto;
+    background-repeat: no-repeat;
+    background-position: 85%;
+}
+
+.bg5 {
+    font-family: "Cairo";
+    text-align: left;
+}
+
+.bg5 p {
+    max-width: 45%;
+    position: relative;
+    /* transform: translateY(50%); */
+    /* padding: 0 10%; */
+}
+
+form * {
+    padding: 0 !important;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 30% !important;
+    margin-left: -150px;
+}
+
+textarea {
+    width: 46%;
+}
+
+select {
+    left: -150px !important;
+    position: relative;
+}
+
+.labelText {
+    vertical-align: middle;
+    display: inline-block;
+    width: 25%;
+    /* padding: 10px 0 !important; */
+    /* text-align: right; */
+    /* vertical-align: top; */
+}
+
+label a {
+    color: pink;
+}
+
+label a:hover {
+    color: lightblue;
+}
+
+input[type=submit] {
+    text-align: center !important;
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 15px 0;
+}
+
+input[type=submit]:hover {
+    background-color: #1E1735;
+    transition: all 0.3s;
+}
+
+.fieldreq {
+    display: block;
+    font-size: 0.5rem;
+    margin-bottom: 70px;
+}
+
+
+/* footer style */
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: initial;
+    /* height: 200px; */
+    background-color: #303030;
+    border-top: 1px #fff solid;
+    padding-top: 10px;
+    letter-spacing: initial;
+    /* font-size: 1.2rem; */
+}
+
+footer span {
+    font-size: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}

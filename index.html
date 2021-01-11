@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-home.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <nav class="navBar" id="navbar">
+            <ul class="logo">
+                <li>
+                    <a href="./index.html">Company Logo</a>
+                </li>
+            </ul>
+            <ul class="navUl">
+                <li class="navLi">
+                    <a href="#" id="active">Home</a>
+                </li>
+                <li class="navLi">
+                    <a href="#about">About</a>
+                </li>
+                <li class="navLi">
+                    <a href="#ourWork">Our Works</a>
+                </li>
+                <li class="navLi">
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li class="navLi">
+                    <a href="#ourTeam">Meet Our Team</a>
+                </li>
+                <li class="navLi">
+                    <a href="#contactUs">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="banner overlay ">
+            <p class="marginFix p1">The title goes here</p>
+        </div>
+    </header>
+    <!-- End of Header -->
+    <!-- Starting main content -->
+    <main>
+        <div class="gallery2">
+            <!--
+            =============
+            ABOUT SECTION
+            =============
+            -->
+            <div class="bg1" id="about">
+                <p class="fixText">FIRST TEXT</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis quidem alias incidunt?</p>
+            </div>
+
+            <!--
+            =============
+            OUR WORK SECTION
+            =============
+            -->
+            <div class="bg2" id="ourWork">
+                <p class="fixText">SECOND TEXT</p>
+
+                <p>Browse some of our works</p>
+                <p class="SeeMore">Browse</p>
+            </div>
+
+            <!--
+            =============
+            Gallery SECTION
+            =============
+            -->
+            <div class="bg3" id="gallery">
+                <p class="fixText">THIRD TEXT</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium odio excepturi quo porro ipsam! Laboriosam aliquid similique doloribus hic. Adipisci quae atque natus facere beatae repudiandae facilis eum ex fugiat? Accusantium eum qui, sit quidem
+                    iusto laboriosam nobis placeat,
+                </p>
+            </div>
+
+            <!--
+            =============
+            MEET OUR TEAM SECTION
+            =============
+            -->
+
+            <div class="bg4" id="ourTeam">
+                <p class="fixText">FORTH TEXT</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam assumenda odit voluptatem. Vero tenetur perferendis placeat quibusdam quod sequi, molestias quam unde qui quasi cupiditate repellendus officiis alias architecto.
+                </p>
+            </div>
+            <p class="fifthText">FIFTH TEXT</p>
+
+            <!--
+            =============
+            CONTACT US SECTION
+            =============
+            -->
+            <section>
+                <form action="" class="bg5" id="contactUs">
+                    <div>
+                        <label for="title" class="labelText">Title:</label>
+                        <select name="titleName" id="title">
+                        <option label="Please select your title"></option>
+                        <option disabled>------------------------------</option>
+                        <option value="mr">Mr.</option>
+                        <option value="mrs">Mr.</option>
+                        <option value="miss">Mrs.</option>
+                        <option value="ms">Ms.</option>
+                        <option value="dr">Dr.</option>
+                    </select>
+                    </div>
+                    <div>
+                        <label for="fName" class="labelText">First name:<span style="color: red;">*</span></label>
+                        <input type="text" name="firstName" id="fName" placeholder="ex. Kareem" maxlength="20">
+                    </div>
+                    <div>
+                        <label for="lName" class="labelText">Last name:<span style="color: red;">*</span></label>
+                        <input type="text" name="lastName" id="lName" placeholder="ex. Alrmanazi" maxlength="50">
+                    </div>
+                    <!-- EMAIL label-->
+                    <div>
+                        <label for="email" class="labelText">E-Mail:<span style="color: red;">*</span></label>
+                        <input type="email" id="email" name="eMail" placeholder="ex. kareem_kemo@live.com" maxlength="100" required style="width: 200px">
+                    </div>
+                    <!-- Password label -->
+                    <!-- <div>
+                        <label for="pw" class="labelText">Password<span style="color: red;">*</span></label>
+                        <input type="password" name="passWord" id="pw" placeholder="Please enter you password!" minlength="4" maxlength="32" required style="width: 200px">
+                    </div> -->
+                    <!-- Gender Form -->
+                    <!-- <div>
+                        <span class="labelText">Please select your gender:</span>
+                        <input type="radio" name="gender" id="male" value="malePerson">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="femalePerson">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="diverse" value="diversPerson">
+                        <label for="diverse">Diverse</label>
+                    </div> -->
+                    <div style="margin-top: 40px;">
+                        <label for="foundUs" class="labelText">Please write your message:</label>
+                    </div>
+                    <div>
+                        <textarea name="aboutUs" id="foundUs" cols="22" rows="5"></textarea>
+                    </div>
+                    <!-- <div>
+                        <input type="checkbox" name="terms" id="acceptTerms" required>
+                        <label for="acceptTerms">Accept our <a href="#">terms and conditions</a>.<span
+                            style="color: red;">*</span></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="mailList" id="mailingList" checked>
+                        <label for="mailingList">Subscribe to our mail list.</label>
+                    </div> -->
+                    <div>
+                        <input type="submit" value="Send a message">
+                    </div>
+                    <div class="fieldreq"><span>Fields marked with an <span style="color: red;">*</span> are required.</span>
+                    </div>
+
+                </form>
+            </section>
+        </div>
+        <div id="topButton">
+            <div class="top">
+
+                <a href="#" class="fas fa-chevron-circle-up">
+                </a>
+
+            </div>
+        </div>
+    </main>
+    <!-- End of main -->
+
+    <!-- Start of Footer -->
+    <footer>
+        <div>
+            &copy;2018-2021 All Right Reserved.
+        </div>
+        <br>
+
+        <span>
+            <i>
+                <a href="https://www.facebook.com/kemo.alkaser" class="fab fa-facebook-square" target="_blank"></a>
+            </i>
+
+            <i>
+                <a href="https://twitter.com/KareemKemo12" target="_blank" class="fab fa-twitter-square"></a>
+            </i>
+            <i>
+                <a href="https://www.instagram.com/kareem_armnazi/" target="_blank" class="fab fa-instagram"></a>
+            </i>
+
+            <i>
+                <a href="https://my.playstation.com/profile/Kareem19900" target="_blank" class="fab fa-playstation"></a>
+                <i>
+        </span>
+    </footer>
+
+    <!-- End of Footer -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

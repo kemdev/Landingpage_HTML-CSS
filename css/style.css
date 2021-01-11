@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "SIMPLIFICA_Typeface";
+    src: url(../font/SIMPLIFICA_Typeface.ttf);
+}
+
+@font-face {
+    font-family: "LeagueGothic-CondensedRegular";
+    src: url(../font/LeagueGothic-CondensedRegular.otf);
+}
+
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url('../font/jflat/JF-Flat-regular.eot');
+    src: url('../font/jflat/JF-Flat-regular.eot?#iefix') format('embedded-opentype'), url('../font/jflat/JF-Flat-regular.svg#JF Flat Regular') format('svg'), url('../font/jflat/JF-Flat-regular.woff') format('woff'), url('../font/jflat/JF-Flat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 
+===================================
+        scrollbar style
+==================================== */
+
+
+/* width */
+
+ ::-webkit-scrollbar {
+    width: 5px;
+    background: aliceblue;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 2px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #212029;
+    border-radius: 2px;
+    height: 70vh;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #504f4f;
+}
+
+
+/* 
+======================
+end of scrollbar style
+======================= */
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #303030;
+    font-family: "JF Flat Regular", Georgia, 'Times New Roman', Times, sans-serif;
+    letter-spacing: 6px;
+    color: aliceblue !important;
+    text-align: center !important;
+}
+
+header {
+    padding: 10px;
+    background-image: url("../img/home-banner-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    height: 100vh;
+}
+
+.navBar * {
+    font-family: "SIMPLIFICA_Typeface";
+    font-size: 1.2em;
+    list-style: none;
+    color: #fff;
+}
+
+.navBar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 0 !important;
+}
+
+nav ul:not(.logo) {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 20px;
+    /* height: 80px; */
+}
+
+nav a {
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.navLi a:hover {
+    /* background-color: #2c3e50; */
+    /* font-size: 1.1em; */
+    background-color: #303030;
+    box-shadow: 8px 10px 20px 0 rgba(10, 11, 12, 0.15);
+    transition: all 0.3s ease-in;
+    border-bottom: solid 1px #fff;
+}
+
+#active {
+    background-color: #303030;
+    /* transition: all 0.2s ease-out; */
+}
+
+#active:hover {
+    background-color: #3e5a77;
+}
+
+
+/* To toggle between colored and transparent background color */
+
+.nav-colored {
+    background-color: #212029 !important;
+    transition: all 0.2s ease-in;
+    height: 70px;
+}
+
+
+/* END OF NAV COLOR TOGGLE */
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    margin-right: 80px !important;
+    border: 2px solid #303030;
+    border-radius: 0 0 15px 15px;
+}
+
+
+/* ---------General style-----------  */
+
+main {
+    background-color: inherit;
+    /* margin: -5px; */
+}
+
+main p {
+    font-size: 1.5em;
+}
+
+main .bg5 {
+    margin: 0 2%;
+}
+
+
+/* ----------End of General style---------- */
+
+
+/* index.html style */
+
+
+/*h1 style of index.html*/
+
+
+/* Responsive image */
+
+@media screen and (max-width: 1000px) {
+    .images {
+        height: 250px;
+    }
+}

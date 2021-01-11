@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar" id="navbar">
+            <ul class="logo">
+                <li>
+                    <a href="./index.html">Company Logo</a>
+                </li>
+            </ul>
+            <ul class="navUl">
+                <li class="navLi">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="navLi">
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="navLi">
+                    <a href="about-us.html">About us</a>
+                </li>
+                <li class="navLi">
+                    <a href="#" id="active">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>From</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit sunt ipsum, laborum ullam dolorum itaque placeat rem a inventore nulla explicabo atque animi sequi quisquam optio ex hic velit?
+        </p>
+        <form action="">
+            <div>
+                <label for="title">Title:</label>
+                <select name="titleName" id="title">
+                    <option label="Please select your title"></option>
+                    <option disabled>------------------------------</option>
+                    <option value="mr">Mr.</option>
+                    <option value="mrs">Mr.</option>
+                    <option value="miss">Mrs.</option>
+                    <option value="ms">Ms.</option>
+                    <option value="dr">Dr.</option>
+                </select>
+            </div>
+            <div>
+                <label for="fName">First name:</label>
+                <input type="text" name="firstName" id="fName" placeholder="ex. Kareem" maxlength="20">
+            </div>
+            <div>
+                <label for="lName">Last name:</label>
+                <input type="text" name="lastName" id="lName" placeholder="ex. Alrmanazi" maxlength="50">
+            </div>
+            <!-- EMAIL label-->
+            <div>
+                <label for="email">E-Mail:<span style="color: red;">*</span></label>
+                <input type="email" id="email" name="eMail" placeholder="ex. kareem_kemo@live.com" maxlength="100" required style="width: 200px">
+            </div>
+            <!-- Password label -->
+            <div>
+                <label for="pw">Password<span style="color: red;">*</span></label>
+                <input type="password" name="passWord" id="pw" placeholder="Please enter you password!" minlength="4" maxlength="32" required style="width: 200px">
+            </div>
+            <!-- Gender Form -->
+            <div>
+                <span>Please select your gender:</span>
+                <input type="radio" name="gender" id="male" value="malePerson">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="femalePerson">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="diverse" value="diversPerson">
+                <label for="diverse">Diverse</label>
+            </div>
+            <div>
+                <label for="foundUs">How did you hear about us?</label>
+            </div>
+            <div>
+                <textarea name="aboutUs" id="foundUs" cols="22" rows="5"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="terms" id="acceptTerms" required>
+                <label for="acceptTerms">Accept our <a href="">terms and conditions</a>.<span style="color: red;">*</span></label>
+            </div>
+            <div>
+                <input type="checkbox" name="mailList" id="mailingList" checked>
+                <label for="mailingList">Subscribe to our mail list.</label>
+            </div>
+            <div>
+                <input type="submit" value="Register Now!">
+            </div>
+            <span>Fields marked with an <span style="color: red;">*</span> are required.</span>
+        </form>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
