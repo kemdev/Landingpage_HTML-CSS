@@ -1,4 +1,4 @@
-# My-project-2021---11.01
+# Landing Page HTML - CSS Only
  
 This project made as a final project for DCI institue.
 
